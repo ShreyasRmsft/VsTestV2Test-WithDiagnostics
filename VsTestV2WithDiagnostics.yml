@@ -15,7 +15,7 @@ trigger:
 jobs:
 - job: RunTest4
   displayName: 'Run Tests'
-  pool: Din_pool
+  pool: Default
   steps:      
   - task: VisualStudioTestPlatformInstaller@1
     displayName: 'Visual Studio Test Platform Installer'
