@@ -18,5 +18,3 @@ jobs:
       searchFolder: '$(System.DefaultWorkingDirectory)\bin\Debug\'
       vsTestVersion: 'toolsInstaller'
       diagnosticsEnabled: true
-      platform: '$(BuildPlatform)'
-      configuration: '$(BuildConfiguration)'
