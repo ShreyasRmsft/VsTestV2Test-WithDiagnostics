@@ -5,7 +5,8 @@ trigger:
 jobs:
 - job: RunTest4
   displayName: 'Run Tests'
-  pool: Default
+  pool:
+    vmImage: windows-latest
   steps:      
   - task: VisualStudioTestPlatformInstaller@1
     displayName: 'Visual Studio Test Platform Installer'
